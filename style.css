@@ -1,0 +1,94 @@
+.header-wrapper{
+  height: 400px;
+  background-color: red;
+  align-items: flex-start;
+  padding: 10px 30px;
+
+}
+header {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-column{
+  width: 10px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+
+}
+.nav {
+  padding: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  gap: 72px;
+  background-color: orange;
+}
+ul li {
+  list-style: none ;
+  margin: 1.10% 0;
+}
+ul li a {
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+ul:hover li a {
+  color: white;
+  animation: "glowing" ease-in-out infinite alternate;
+}
+ul:hover li a:not(:hover) {
+  color: black;
+  opacity: 0.3s;
+  filter: blur(1px);
+}
+.alignVideo{
+  align-items: center;
+  display: left;
+}
+.Title{
+  font-size: 40px;
+text-align: center;
+}
+.flex-item{
+  grid-area: content;
+}
+.container{
+display:grid;
+
+  }
+  ol {
+    padding: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    gap: 10px;
+    margin: 2% 0;
+  }
+  .ingredientlistun {
+    list-style: disc;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 5% 0;
+  }
+  .boxtitle{
+    font-size: 26px;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 10px;
+    color: orange;
+    background-color: red;
+  }
+
+.footer{
+  color:red;
+  place-items: bottom;
+  
+}
