@@ -1,3 +1,4 @@
+
 .header-wrapper{
   height: 400px;
   background-color: red;
@@ -52,17 +53,35 @@ ul:hover li a:not(:hover) {
 .alignVideo{
   align-items: center;
   display: left;
+;
+
 }
 .Title{
   font-size: 40px;
 text-align: center;
-}
-.flex-item{
-  grid-area: content;
+background-color:white;
+margin-top: 1%;
 }
 .container{
-display:grid;
-
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+padding: 0;
+background-color: orange;
+}
+  .img{
+    max-width: 100%;
+    max-height: 100%;
+  align-items: center;
+  }
+  .textcontainer{
+padding-left:40px;
+  }
+  .extratext{
+    background-color: orange;
+    padding:0;
+    margin:0;
   }
   ol {
     padding: 40px;
@@ -77,6 +96,7 @@ display:grid;
     text-transform: uppercase;
     padding: 10px;
     margin: 5% 0;
+    background-color: white;
   }
   .boxtitle{
     font-size: 26px;
@@ -86,9 +106,18 @@ display:grid;
     color: orange;
     background-color: red;
   }
+.containerpictures{
+  display:flex;
+}
 
+.picturecolumn{
+  flex: 33.33%;
+  padding:5px;
+}
 .footer{
   color:red;
-  place-items: bottom;
-  
+  background-color: black;
+height:100px;
+text-align: center;
+padding-top: 1%;
 }
