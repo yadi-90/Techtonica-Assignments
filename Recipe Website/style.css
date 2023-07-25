@@ -119,6 +119,7 @@ padding-left:40px;
 .formcontainer {
   align-self: center;
   margin-bottom: 50px;
+  padding-left: 100px;
 }
 form {
   display: inline-block;
@@ -132,6 +133,9 @@ form {
   box-shadow: 10px 15px 25px black;
 }
 
+.center-button {
+  text-align: center;
+}
 
 .picturecolumn{
   flex: 33.33%;
