@@ -116,6 +116,22 @@ padding-left:40px;
 .containerpictures{
   display:flex;
 }
+.formcontainer {
+  align-self: center;
+  margin-bottom: 50px;
+}
+form {
+  display: inline-block;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  width: 1000px;
+  height: 300px;
+  background-color: orange;
+  border-radius: 10px;
+  box-shadow: 10px 15px 25px black;
+}
+
 
 .picturecolumn{
   flex: 33.33%;
