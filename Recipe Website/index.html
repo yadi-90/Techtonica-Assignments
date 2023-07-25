@@ -13,8 +13,8 @@
         <div class="logo">
         <img src="images/logotechtonicawebtiny.png">
         </div>
-        <div>
-      <nav class="link-wrapper">
+        <div class = "navsettings">
+      <nav>
         <ul class="nav">
         <li><a class="nav-link" href="index.html">Home</a></li>
         <li><a class="nav-link" href="Mexican.html">Mexican</a></li>
@@ -27,10 +27,11 @@
       </div>
     </header>
     <main> 
-      <section class="alignVideo">
-        <div>
-            <iframe controls autoplay width="1175" height="400" src="images/Dish Explorer video.mp4"</iframe>
-        </iframe>
+      <section>
+        <div class = "alignVideo"> 
+            <video id ="video" width="820" height="440" controls>
+            <source src="images/Dish Explorer video.mp4"/>
+        </video>
         </div>
     </setion>
     <section>
@@ -70,10 +71,10 @@
     <section>
         <h2 class="boxtitle"> Ingredients</h2>
         <h3> For the Meat</h3>
-        <ul class="Ingredientlist"> 
-         <li class ="ingredientslistun">  <span>&#8226</span> 1 Lb Bone-In Lamb Ribs</li>
-       <li>   <span>&#8226</span> 1 Lb Beef shank</li>
-         <li>  <span>&#8226</span> 1 Lb Beef loin</li>
+        <ul class="ingredientlistun"> 
+         <li> <span>&#8226</span> 1 Lb Bone-In Lamb Ribs</li>
+       <li>  <span>&#8226</span> 1 Lb Beef Shank</li>
+         <li>  <span>&#8226</span> 1 Lb Beef Loin</li>
          <li>  <span>&#8226</span> 1 1/2 Tbsp Salt</li>
          <li>   <span>&#8226</span> 1 Tbsp Pepper</li>
          <li>  <span>&#8226</span> 1 Tsp Ground Cumin</li>
@@ -120,6 +121,40 @@
         </ol>
     </section>
     <section>
+        <div>
+        <h2> Grocery list</h2> </div>
+        <form action = "" name = "theForm">
+            <select name = "theIngredient" size = "24">
+                <option value="0" selected="selected">1 LB BONE-IN LAMB RIBS</option>
+                <option value="1">1 LB BEEF SHANK </option>
+                <option value="2"> 1 LB BEEF LOIN</option>
+                <option value="3">1 1/2 TBSP SALT</option>
+                <option value="4">1 TBSP PEPPER </option>
+                <option value="5">1 TSP GROUND CUMIN </option>
+                <option value="6">4 Dried Ancho Chiles</option>
+                <option value="7">1 Chipotle Peppers </option>
+                <option value="8">8 Peppercorns</option>
+                <option value="9">2 cloves</option>
+                <option value="10">1 Tsp dried thyme </option>
+                <option value="11">1 Tsp Marjoram</option>
+                <option value="12">1 Tsp Dried Oregano </option>
+                <option value="13">2 Bay Leaves </option>
+                <option value="14">1/2 Tsp Ground Cumin </option>
+                <option value="15">1/2 Tsp Ground Ginger </option>
+                <option value="16">1/2 Cinnamon Stick </option>
+                <option value="17">8 Cloves Garlic </option>
+                <option value="18">1/2 Large Onion </option>
+                <option value="19">1 1/2 Tbsp Salt </option>
+                <option value="20">4 Red Tomatoes </option>
+                <option value="21">1/4 cup Apple cider vinegar </option>
+                <option value="22">2 cups Water </option>
+            </select>
+            <br />
+            <input type = "button" value ="Remove Ingredient" name ="btnRemovedIngredient" />
+            <input type = "button" value ="Add Ingredient" name ="btnAddIngredient" />
+        </form>
+    </section>
+    <section>
         <h2>Check out this other recipes!</h2>
     </section>
     <section class="containerpictures">
@@ -146,5 +181,6 @@
     <p>Completed by Yadira Morales</p>
 </div>
       </section>
+      <script> src="script.js" </script>
   </body>
 </html>

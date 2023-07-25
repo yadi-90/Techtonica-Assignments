@@ -4,6 +4,7 @@
   background-color: red;
   align-items: flex-start;
   padding: 10px 30px;
+  margin-bottom: 0px;
 
 }
 header {
@@ -19,7 +20,11 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 0%;
+  margin-bottom: 0px;
 
+}
+.navsettings{
+  margin-bottom: 0;
 }
 .nav {
   padding: 15px;
@@ -52,7 +57,10 @@ ul:hover li a:not(:hover) {
 }
 .alignVideo{
   align-items: center;
-  display: left;
+  display: grid;
+  justify-items: center;
+  margin-top: 10px;
+  background-color: black;
 ;
 
 }
@@ -103,8 +111,9 @@ padding-left:40px;
     text-decoration: none;
     padding: 10px;
     color: orange;
-    background-color: red;
+    background-color:red;
     margin-top: 0px;
+    
   }
 .containerpictures{
   display:flex;
