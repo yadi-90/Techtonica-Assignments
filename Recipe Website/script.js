@@ -12,7 +12,7 @@ function printCheckedIngredients() {
 
     if (checkedIngredients.length > 0) {
         let ingredientsList = checkedIngredients.join("\n");
-        alert("Checked Ingredients:\n" + ingredientsList);
+        alert("Grocery List:\n" + ingredientsList);
     } else {
         alert("No ingredients are checked.");
     }
