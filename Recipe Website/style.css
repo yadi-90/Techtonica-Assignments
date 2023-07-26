@@ -24,7 +24,7 @@ header {
 
 }
 .navsettings{
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 .nav {
   padding: 15px;
@@ -32,6 +32,7 @@ header {
   display: flex;
   gap: 72px;
   background-color: orange;
+  color:white;
 }
 ul li {
   list-style: none ;
@@ -44,6 +45,7 @@ ul li a {
   text-transform: uppercase;
   padding: 10px;
   transition: 0.5s;
+  color:white;
 }
 
 ul:hover li a {
@@ -171,6 +173,9 @@ form {
   flex: 33.33%;
   padding:5px;
   margin-top: 0%;
+}
+.link{
+  color:white;
 }
 .footer{
   color:red;
