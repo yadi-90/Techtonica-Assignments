@@ -4,7 +4,7 @@ let video = document.getElementById('video');
 video.autoplay = true;
 video.addEventListener('ended', function () {
   video.currentTime = 0;
-  video.play(1);
+  video.play();
 });
 
 
