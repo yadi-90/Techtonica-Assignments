@@ -18,12 +18,16 @@ function printCheckedIngredients() {
     }
 }
 
-let zoomImage = document.getElementById('zoomImage');
+const zoomableImages = document.querySelectorAll('.zoomable-image');
 
-zoomImage.addEventListener('mouseenter', () => {
-  zoomImage.style.transform = 'scale(1.25)';
-});
+zoomableImages.forEach((image) => {
+  image.addEventListener('mouseenter', () => {
+    // Code to execute when the mouse enters the image area
+    image.style.transform = 'scale(1.2)'; // Apply the zoom-out effect
+  });
 
-zoomImage.addEventListener('mouseleave', () => {
-  zoomImage.style.transform = 'scale(1)';
+  image.addEventListener('mouseleave', () => {
+    // Code to execute when the mouse leaves the image area
+    image.style.transform = 'scale(1)'; // Reset the image scale
+  });
 });
