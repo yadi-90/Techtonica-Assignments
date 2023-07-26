@@ -105,7 +105,7 @@ padding-left:40px;
   }
   .boxtitle{
     font-size: 26px;
-    font-weight: 200;
+    font-weight: 800px;
     text-decoration: none;
     padding: 10px;
     color: orange;
@@ -115,6 +115,11 @@ padding-left:40px;
   }
 .containerpictures{
   display:flex;
+  background-color: red;
+}
+.titlebottom{
+  background-color: red;
+  margin-bottom: 0%;
 }
 .formcontainer {
   align-self: center;
@@ -160,6 +165,7 @@ form {
 .picturecolumn{
   flex: 33.33%;
   padding:5px;
+  margin-top: 0%;
 }
 .footer{
   color:red;
