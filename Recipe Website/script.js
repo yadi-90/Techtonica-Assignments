@@ -17,3 +17,13 @@ function printCheckedIngredients() {
         alert("No ingredients are checked.");
     }
 }
+
+let zoomImage = document.getElementById('zoomImage');
+
+zoomImage.addEventListener('mouseenter', () => {
+  zoomImage.style.transform = 'scale(1.25)';
+});
+
+zoomImage.addEventListener('mouseleave', () => {
+  zoomImage.style.transform = 'scale(1)';
+});
