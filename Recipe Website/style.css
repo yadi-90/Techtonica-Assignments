@@ -141,13 +141,19 @@ form {
 }
 .button{
   display:block;
-  width: 80%;
-  border: none;
-  background-color: blue;
+  width: 87%;
+  border: black;
+  background-color: orange;
   color:antiquewhite;
-  font-size: 16px;
+  padding: 14px 28px;
+  font-size: 25px;
+  font-style: italic;
   cursor: pointer;
   text-align: center;
+}
+.button:hover{
+  background-color: orange;
+  color:black;
 }
 
 .picturecolumn{

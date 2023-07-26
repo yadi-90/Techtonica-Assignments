@@ -1,6 +1,6 @@
 function printCheckedIngredients() {
-    let a = document.forms["main"];
-    let checkboxes = a.querySelectorAll('input[type="checkbox"]');
+    let list = document.forms["main"];
+    let checkboxes = list.querySelectorAll('input[type="checkbox"]');
     let checkedIngredients = [];
 
     checkboxes.forEach((checkbox) => {
