@@ -1,3 +1,8 @@
+
+let titleColor = document.getElementById("Title").style.backgroundColor="orange";
+
+
+/////////////////////////////////////////////////////////
 function printCheckedIngredients() {
     let list = document.forms["main"];
     let checkboxes = list.querySelectorAll('input[type="checkbox"]');
@@ -17,17 +22,14 @@ function printCheckedIngredients() {
         alert("No ingredients are checked.");
     }
 }
-
+//////////////////////////////////////////////////////////
 const zoomableImages = document.querySelectorAll('.zoomable-image');
 
 zoomableImages.forEach((image) => {
   image.addEventListener('mouseenter', () => {
-    // Code to execute when the mouse enters the image area
-    image.style.transform = 'scale(1.2)'; // Apply the zoom-out effect
+    image.style.transform = 'scale(1.2)'; 
   });
-
   image.addEventListener('mouseleave', () => {
-    // Code to execute when the mouse leaves the image area
-    image.style.transform = 'scale(1)'; // Reset the image scale
+    image.style.transform = 'scale(1)'; 
   });
 });
