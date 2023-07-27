@@ -40,3 +40,10 @@ zoomableImages.forEach((image) => {
     image.style.transform = 'scale(1)'; 
   });
 });
+
+//////////////////////////////////////////////////
+
+let hamburger = document.querySelector(".hamburger");
+let navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEvent
