@@ -42,8 +42,3 @@ zoomableImages.forEach((image) => {
 });
 
 //////////////////////////////////////////////////
-
-let hamburger = document.querySelector(".hamburger");
-let navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEvent
