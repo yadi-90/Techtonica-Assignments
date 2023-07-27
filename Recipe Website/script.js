@@ -30,7 +30,7 @@ function printCheckedIngredients() {
     }
 }
 //////////////////////////////////////////////////////////
-const zoomableImages = document.querySelectorAll('.zoomable-image');
+let zoomableImages = document.querySelectorAll('.zoomable-image');
 
 zoomableImages.forEach((image) => {
   image.addEventListener('mouseenter', () => {
