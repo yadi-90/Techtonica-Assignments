@@ -1,11 +1,8 @@
 
 .header-wrapper{
-  height: 400px;
+  height: 450px;
   background-color: red;
   align-items: flex-start;
-  padding: 10px 30px;
-  margin-bottom: 0px;
-
 }
 header {
   height: 5vh;
