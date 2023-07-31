@@ -13,8 +13,8 @@
         <div class="logo">
         <img src="images/logotechtonicawebtiny.png">
         </div>
-        <div>
-      <nav class="link-wrapper">
+        <div class = "navsettings">
+      <nav>
         <ul class="nav">
         <li><a class="nav-link" href="index.html">Home</a></li>
         <li><a class="nav-link" href="Mexican.html">Mexican</a></li>
@@ -27,14 +27,15 @@
       </div>
     </header>
     <main> 
-      <section class="alignVideo">
-        <div>
-            <iframe controls autoplay width="1175" height="400" src="images/Dish Explorer video.mp4"</iframe>
-        </iframe>
+      <section>
+        <div class = "alignVideo"> 
+            <video id ="video" width="820" height="440" controls autoplay>
+            <source  autoplay src="images/Dish Explorer video 2.mp4" type="video/mp4"/>
+        </video>
         </div>
-    </setion>
+    </section>
     <section>
-        <div class="Title">
+        <div id="Title" class="Title">
             <h1>
                 My Favorite Recipe
             </h1>
@@ -67,23 +68,13 @@
            </p>
         </div></div>
            </section>
-           <section class="extratext">
-           <p>
-            With the Birria business flourishing, my mom's culinary prowess not only touched hearts but also led us to greater heights. As our Birria dollars accumulated, we celebrated a remarkable milestone – the acquisition of a car, expanding our operation to reach the next apartment complex nearby. With wheels at our disposal, we embarked on a flavorful journey, delivering satisfaction and nostalgia to the palates of our growing clientele.
-           </p>
-           <p>
-            As life tends to move forward, our Saturday enterprise eventually gave way to new beginnings when we moved to a home of our own. However, one thing remains unchanged – the allure of Birria still transports me back to those cherished memories. With every spoonful of this marvelous stew, I'm transported to those bygone Saturdays, where the essence of family, love, and culinary artistry blended together in perfect harmony.
-           </p>
-           <p>
-            Today, as I relish the comforting taste of Birria, I'm reminded of how food has the power to etch indelible memories in our hearts. Our humble venture may have been short-lived, but its impact continues to resonate, forever bound to the soulful aromas and flavors of Birria - a timeless dish that will always hold a special place in my heart.
-           </p></section>
     <section>
         <h2 class="boxtitle"> Ingredients</h2>
         <h3> For the Meat</h3>
-        <ul class="Ingredientlist"> 
-         <li class ="ingredientslistun">  <span>&#8226</span> 1 Lb Bone-In Lamb Ribs</li>
-       <li>   <span>&#8226</span> 1 Lb Beef shank</li>
-         <li>  <span>&#8226</span> 1 Lb Beef loin</li>
+        <ul class="ingredientlistun"> 
+         <li> <span>&#8226</span> 1 Lb Bone-In Lamb Ribs</li>
+       <li>  <span>&#8226</span> 1 Lb Beef Shank</li>
+         <li>  <span>&#8226</span> 1 Lb Beef Loin</li>
          <li>  <span>&#8226</span> 1 1/2 Tbsp Salt</li>
          <li>   <span>&#8226</span> 1 Tbsp Pepper</li>
          <li>  <span>&#8226</span> 1 Tsp Ground Cumin</li>
@@ -130,31 +121,85 @@
         </ol>
     </section>
     <section>
-        <h2>Check out this other recipes!</h2>
+        <div class= "formcontainer" >
+        <form  name ="main">
+            <h2> <center>Ingredients Needed</center></h2>
+            <input type="checkbox" id="beefShank">
+            <label for="beefShank">1 LB BEEF SHANK</label>
+            <input type="checkbox" id="beefLoin">
+            <label for="beefLoin">1 LB BEEF LOIN</label>
+            <input type="checkbox" id="salt">
+            <label for="salt">1 1/2 TBSP SALT</label>
+                    <input type = "checkbox" id="pepper">
+                <label>1 TBSP PEPPER </label>
+                    <input type = "checkbox">
+                <label>1 TSP GROUND CUMIN </label>
+                    <input type = "checkbox">
+                <label>4 Dried Ancho Chiles</label>
+                    <input type = "checkbox">
+                <label>1 Chipotle Peppers </label>
+                    <input type = "checkbox">
+                <label>8 Peppercorns </label>
+                    <input type = "checkbox">
+                <label>2 cloves</label>
+                    <input type = "checkbox">
+                <label>1 Tsp dried thyme </label>
+                    <input type = "checkbox">
+                <label>1 Tsp Marjoram</label>
+                    <input type = "checkbox">
+                <label>1 Tsp Dried Oregano </label>
+                    <input type = "checkbox">
+                <label>2 Bay Leaves </label>
+                    <input type = "checkbox">
+                <label>1/2 Tsp Ground Cumin </label>
+                    <input type = "checkbox">
+                <label>1/2 Tsp Ground Ginger </label>
+                    <input type = "checkbox">
+                <label>1/2 Cinnamon Stick </label>
+                    <input type = "checkbox">
+                <label>8 Cloves Garlic </label>
+                    <input type = "checkbox">
+                <label>1/2 Large Onion </label>
+                    <input type = "checkbox">
+                <label>1 1/2 Tbsp Salt </label>
+                    <input type = "checkbox">
+                <label>4 Red Tomatoes </label>
+                <label>1/4 cup Apple cider vinegar </label>
+                    <input type = "checkbox">
+                <label>2 cups Water </label>
+            <br />
+        </form>
+        <div class="center-button">
+            <button  class ="button" onclick="printCheckedIngredients()"><center>Print Checked Ingredients</center></button>
+    </div>
+    </section>
+    <section class="titlebottom">
+        <h2><center>Check out this other recipes!</center></h2>
     </section>
     <section class="containerpictures">
             <div class="picturecolumn">
             <h3>Pozole</h3>
-            <p><a href="https://www.simplyrecipes.com/recipes/posole_rojo/"> <strong>Click the Link</strong></a></p>
-           <img src="images/newpozolepic.jpeg" alt="picture of Italian food">
+            <p><a class="link"  href="https://www.simplyrecipes.com/recipes/posole_rojo/"> <strong>Click the Link</strong></a></p>
+           <img id="zoomImage1" class="zoomable-image" src="images/newpozolepic.jpeg" alt="picture of Pozole">
         </div>
         <div class="picturecolumn">
          <h3>Menudo</h3>
-         <p><a href="https://norecipes.com/menudo/"> <strong>Click the Link</strong></a></p>
-           <img src="images/menudoimg.jpeg" alt="picture of Orange Chicken" style:"width:20%"></div>
+         <p><a class="link" href="https://norecipes.com/menudo/"> <strong>Click the Link</strong></a></p>
+           <img id="zoomImage2"  class="zoomable-image"src="images/menudoimg.jpeg" alt="picture of Menudo" style:"width:20%"></div>
            <div class="picturecolumn" >
          <h3>Tortilla Soup</h3>
-         <p><a href="https://www.spendwithpennies.com/chicken-tortilla-soup/"> <strong>Click the Link</strong></a></p>
-           <img src="images/newtortillasoup.jpeg" alt="picture of oatmeal" style:"height:20%"></div>
+         <p><a class="link" href="https://www.spendwithpennies.com/chicken-tortilla-soup/"> <strong>Click the Link</strong></a></p>
+           <img id="zoomImage3" class="zoomable-image" src="images/newtortillasoup.jpeg" alt="picture of tortilla soup" style:"height:20%"></div>
           </div>
     </section>
     </main>
     <footer>
-      <section>
-      <div class="footer"><strong>Recepies for everyone!</strong>
+      <div class="footer"><strong>Recipes for everyone!</strong>
         <p>Techtonica Assigment Week 1</p>
     <p>Completed by Yadira Morales</p>
 </div>
       </section>
+      <script src="script.js"></script>
+    </footer>
   </body>
 </html>
