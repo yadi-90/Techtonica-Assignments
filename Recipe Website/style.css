@@ -1,10 +1,8 @@
 
 .header-wrapper{
-  height: 400px;
+  height: 450px;
   background-color: red;
   align-items: flex-start;
-  padding: 10px 30px;
-
 }
 header {
   height: 5vh;
@@ -19,7 +17,11 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 0%;
+  margin-bottom: 0px;
 
+}
+.navsettings{
+  margin-bottom: 50px;
 }
 .nav {
   padding: 15px;
@@ -27,6 +29,7 @@ header {
   display: flex;
   gap: 72px;
   background-color: orange;
+  color:white;
 }
 ul li {
   list-style: none ;
@@ -39,6 +42,7 @@ ul li a {
   text-transform: uppercase;
   padding: 10px;
   transition: 0.5s;
+  color:white;
 }
 
 ul:hover li a {
@@ -52,14 +56,15 @@ ul:hover li a:not(:hover) {
 }
 .alignVideo{
   align-items: center;
-  display: left;
-;
-
+  display: grid;
+  justify-items: center;
+  margin-top: 10px;
+  background-color: black;
 }
+
 .Title{
   font-size: 40px;
 text-align: center;
-background-color:white;
 margin-top: 1%;
 }
 .container{
@@ -70,10 +75,26 @@ margin: 0;
 padding: 0;
 background-color: orange;
 }
+@media only screen and (max-width:600px) {
+  .container{
+    display:block;
+  }
+  video {
+    height: 450px;
+    width:450px;
+  }
+}
   .img{
     max-width: 100%;
     max-height: 100%;
   align-items: center;
+  }
+  @media only screen and (max-width:600px) {
+    img{
+      height: 450px;
+      width:450px;
+      align-content: center;
+    }
   }
   .textcontainer{
 padding-left:40px;
@@ -100,19 +121,92 @@ padding-left:40px;
   }
   .boxtitle{
     font-size: 26px;
-    font-weight: 200;
+    font-weight: 800px;
     text-decoration: none;
     padding: 10px;
     color: orange;
-    background-color: red;
+    background-color:red;
+    margin-top: 0px;
+    
   }
 .containerpictures{
   display:flex;
+  background-color: red;
+  font-size: 30px;
+  align-items: center;
 }
-
+@media only screen and (max-width:600px) {
+.containerpictures{
+  display:block;
+  align-self: center;
+}
+}
+.formcontainer {
+  align-self: center;
+  margin-bottom: 50px;
+  padding-left: 80px;
+}
+form {
+  display: inline-block;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  width: 1000px;
+  height: 300px;
+  background-color: orange;
+  border-radius: 10px;
+  box-shadow: 10px 15px 25px black;
+}
+@media only screen and (max-width:600px) {
+  form{
+    display:block;
+    width: 400px;
+  }
+}
+.center-button {
+  text-align: center;
+  margin-top: 45px;
+  box-sizing: large;
+  padding-right: 205px;
+}
+.button{
+  display:block;
+  width: 87%;
+  border: black;
+  background-color: orange;
+  color:red;
+  padding: 14px 28px;
+  font-size: 25px;
+  font-style: italic;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50px;
+}
+.button:hover{
+  background-color: orange;
+  color:black;
+}
+@media only screen and (max-width:600px) {
+  .button{
+padding: 0;
+margin: 0;
+font-size: 30px;
+  }
+}
+.titlebottom{
+  background-color: red;
+  margin-bottom: 0%;
+  height: 90px;
+  font-size: 30px;
+  align-self: center;
+}
 .picturecolumn{
   flex: 33.33%;
   padding:5px;
+  margin-top: 0%;
+}
+.link{
+  color:white;
 }
 .footer{
   color:red;
