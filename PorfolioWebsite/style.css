@@ -11,6 +11,7 @@ nav{
     background-color: black;
     border-radius: 8px;
     font-size: 0;
+    margin-left: 50%;
 }
 nav a {
     line-height: 50px;
@@ -48,25 +49,25 @@ width: 160px;
 nav .start-Home, a:nth-child(1):hover{
     width: 100px;
     left: 0;
-    background-color:rgb(81, 81, 81);
+    background-color:#a26769;
     border-radius: 8px
 }
 nav .start-About, a:nth-child(2):hover{
     width: 110px;
     left: 0;
-    background-color: rgb(81, 81, 81);
+    background-color:#a26769;
     border-radius: 8px
 }
 nav .start-Projects, a:nth-child(3):hover{
     width: 100px;
     left: 0;
-    background-color:rgb(81, 81, 81);
+    background-color:#a26769;
     border-radius: 8px;
 }
 nav .start-Contact, a:nth-child(4):hover{
-    width: 160px;
+    width: 162px;
     left: 0;
-    background-color: rgb(81, 81, 81);
+    background-color:#a26769;
     border-radius: 8px;
 }
 .colortop{
@@ -81,7 +82,7 @@ nav .start-Contact, a:nth-child(4):hover{
     height: 500px;
     width:auto;
     margin-top: 0px;
-    
+
 }
 p {
     line-height: 32px;  
@@ -160,7 +161,7 @@ footer{
     margin-top: 50px;
    display: inline-flex;
    justify-content:space-between;
-    background-color: rgb(165, 160, 160);
+    background-color: #E9D2C3;
     width: 100%;
     margin-top: 80px;
     margin-bottom:0px;
