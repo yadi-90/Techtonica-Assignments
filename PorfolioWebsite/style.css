@@ -2,6 +2,10 @@
     background-color: orangered;
     margin-top: 0;
 }
+.logo{
+max-width: 20%;
+max-height: 20%;
+}
 nav{
     margin: 27px auto 0;
     position: relative;
