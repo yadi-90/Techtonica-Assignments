@@ -154,3 +154,9 @@ form {
   input[type="submit"]:hover {
     background-color: wheat;
   }
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
