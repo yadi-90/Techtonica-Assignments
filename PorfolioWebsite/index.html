@@ -9,7 +9,7 @@
 </head>
 <body>
     <section class="colortop">
-        <div class="logo">
+         <div id="logo">
             <img src="images/Sub Logo.png" width="200" height="200">
         </div>
         <div class="animation start-home">
@@ -41,10 +41,16 @@
         </div>
     </section>
     <section>
-        <h1>
-            Form
-        </h1>
-    </section>
+        <form action="send.html">
+            <h1 class="formstyle"> Contact Form </h1>
+            <input type="text" name="name" id="name" placeholder="Name"
+            required>
+            <input type="email" name="email" id="email" 
+            placeholder="Email" required>
+            <textarea name="textBox" id="textBox" cols="35" rows="8"
+            placeholder="Type here..." required></textarea>
+            <input type="submit" value="Send">
+        </form></section>
     <footer></footer>
 </body>
 </html>
