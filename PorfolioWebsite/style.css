@@ -1,7 +1,7 @@
 nav{
     margin: 27px auto 0;
     position: relative;
-    width: 590px;
+    width: 475px;
     height: 50px;
     background-color: blue;
     border-radius: 8px;
@@ -40,24 +40,24 @@ width: 100px;
 a:nth-child(4){
 width: 160px;    
 }
-nav.start-home, a:nth-child(1):hover-animation{
+nav .start-Home, a:nth-child(1):hover{
     width: 100px;
     left: 0;
     background-color: red;
 }
-nav.start-home, a:nth-child(2):hover-animation{
+nav .start-About, a:nth-child(2):hover{
     width: 110px;
     left: 0;
     background-color: rgb(142, 27, 209);
 }
-nav.start-home, a:nth-child(3):hover-animation{
+nav .start-Projects, a:nth-child(3):hover{
     width: 100px;
-    left: 210;
+    left: 0;
     background-color: rgb(244, 241, 65);
 }
-nav.start-home, a:nth-child(4):hover-animation{
+nav .start-Contact, a:nth-child(4):hover{
     width: 160px;
-    left: 310;
+    left: 0;
     background-color: pink;
 }
 body{
