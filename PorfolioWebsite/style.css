@@ -1,6 +1,7 @@
 .colortop{
     background-color: orangered;
     margin-top: 0;
+    justify-items: flex-end;
 }
 .logo{
 max-width: 20%;
@@ -64,11 +65,13 @@ nav .start-Projects, a:nth-child(3):hover{
     width: 100px;
     left: 0;
     background-color:rgb(81, 81, 81);
+    border-radius: 8px;
 }
 nav .start-Contact, a:nth-child(4):hover{
     width: 160px;
     left: 0;
     background-color: rgb(81, 81, 81);
+    border-radius: 8px;
 }
 .aboutmesection{
     background-color: #e9d2c3;
