@@ -81,18 +81,19 @@ nav .start-Contact, a:nth-child(4):hover{
     height: 500px;
     width:auto;
     margin-top: 0px;
-}
-
-.aboutmechanges{
-    color: white;
-    font-weight: 100;
-    font-size: 60px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 p {
-    margin: 0px;
-    font-size: 26px;
+    line-height: 32px;  
+    margin-bottom: 20px; 
+    font-size: 30px;
 }
+.aboutmechanges{
+    color: white;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 h1{
     font-size: 60px;
 }
@@ -130,7 +131,7 @@ form {
     border: none;
     padding: 10px 15px;
     outline: none;
-    background-color: wheat;
+    background-color:whitesmoke;
     color: black;
     width:60%;
   }
@@ -161,14 +162,14 @@ footer{
    justify-content:space-between;
     background-color: rgb(165, 160, 160);
     width: 100%;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom:0px;
     height: 20%;
 }
 .footerpar{
     font: size 5px;
     display:block;
-    margin: top 30px ;
+    margin-top: 30px ;
 }
 #logosfooter{
     display: block;
