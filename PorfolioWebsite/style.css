@@ -1,3 +1,7 @@
+.colortop{
+    background-color: white;
+    margin-top: 0;
+}
 nav{
     margin: 27px auto 0;
     position: relative;
@@ -17,7 +21,7 @@ nav a {
     text-decoration:none;
     text-transform: uppercase;
     text-align: center;
-    color: azure;
+    color: yellow;
     cursor: pointer;
 }
 nav .animation{
@@ -44,11 +48,13 @@ nav .start-Home, a:nth-child(1):hover{
     width: 100px;
     left: 0;
     background-color: red;
+    border-radius: 8px
 }
 nav .start-About, a:nth-child(2):hover{
     width: 110px;
     left: 0;
     background-color: rgb(142, 27, 209);
+    border-radius: 8px
 }
 nav .start-Projects, a:nth-child(3):hover{
     width: 100px;
@@ -62,7 +68,6 @@ nav .start-Contact, a:nth-child(4):hover{
 }
 body{
     font-size: 12px;
-    background-color: black;
 }
 span{
     color: orange;
