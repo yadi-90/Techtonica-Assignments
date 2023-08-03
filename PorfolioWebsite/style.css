@@ -21,7 +21,7 @@ nav a {
     text-decoration:none;
     text-transform: uppercase;
     text-align: center;
-    color: yellow;
+    color: whitesmoke;
     cursor: pointer;
 }
 nav .animation{
@@ -67,15 +67,19 @@ nav .start-Contact, a:nth-child(4):hover{
     background-color: rgb(81, 81, 81);
 }
 .aboutmesection{
-    background-color: brown;
-    height: 200px;
+    background-color: #e9d2c3;
+    height: 500px;
     width:auto;
     margin-top: 0px;
 }
-span{
-    color: orange;
+
+.aboutmechanges{
+    color: white;
+    font-weight: 100;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
     margin: 0px;
-    
+    font-size: 26px;
 }
