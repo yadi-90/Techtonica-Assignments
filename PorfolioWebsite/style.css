@@ -7,7 +7,7 @@ nav{
     position: relative;
     width: 475px;
     height: 50px;
-    background-color: blue;
+    background-color: black;
     border-radius: 8px;
     font-size: 0;
 }
@@ -47,24 +47,24 @@ width: 160px;
 nav .start-Home, a:nth-child(1):hover{
     width: 100px;
     left: 0;
-    background-color: red;
+    background-color:rgb(81, 81, 81);
     border-radius: 8px
 }
 nav .start-About, a:nth-child(2):hover{
     width: 110px;
     left: 0;
-    background-color: rgb(142, 27, 209);
+    background-color: rgb(81, 81, 81);
     border-radius: 8px
 }
 nav .start-Projects, a:nth-child(3):hover{
     width: 100px;
     left: 0;
-    background-color: rgb(244, 241, 65);
+    background-color:rgb(81, 81, 81);
 }
 nav .start-Contact, a:nth-child(4):hover{
     width: 160px;
     left: 0;
-    background-color: pink;
+    background-color: rgb(81, 81, 81);
 }
 body{
     font-size: 12px;
