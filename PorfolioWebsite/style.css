@@ -97,7 +97,8 @@ h1{
     font-size: 60px;
 }
 form {
-    margin-top: 50px;;
+    margin-top: 50px;
+    margin-left: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,7 +130,7 @@ form {
     border: none;
     padding: 10px 15px;
     outline: none;
-    background-color: whitesmoke;
+    background-color: wheat;
     color: black;
   }
   #textBox::placeholder {
