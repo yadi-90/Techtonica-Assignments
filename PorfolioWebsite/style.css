@@ -66,8 +66,10 @@ nav .start-Contact, a:nth-child(4):hover{
     left: 0;
     background-color: rgb(81, 81, 81);
 }
-body{
-    font-size: 12px;
+.aboutmesection{
+    background-color: brown;
+    height: 200px;
+    width:auto;
 }
 span{
     color: orange;
