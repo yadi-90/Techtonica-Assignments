@@ -158,5 +158,10 @@ form {
 footer{
     margin-top: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-items: flex-end;
+    background-color: rgb(224, 213, 213);
+}
+#logosfooter{
+    display: block;
+    justify-content: end;
 }
