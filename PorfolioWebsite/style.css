@@ -181,3 +181,9 @@ footer{
     font-style: italic;
     color:#e9d2c3;
 }
+input #name{
+    height: 50%;
+}
+input #email{
+    height: 50%;
+}
