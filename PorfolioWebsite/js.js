@@ -16,7 +16,6 @@ button.addEventListener("click", (event) => {
     } else {
         errorMessage.style.display = "none";
         console.log(`email: ${email} name: ${name} textarea: ${textarea}`);
-        // Add code here to handle form submission or other actions
     }
 });
 
