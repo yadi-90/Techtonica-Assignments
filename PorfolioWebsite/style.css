@@ -177,7 +177,7 @@ footer{
     justify-content: space-around;
     margin-top: 10px;
 }
-#errorMessage{
+#error-message{
     font-style: italic;
     color:#e9d2c3;
 }
