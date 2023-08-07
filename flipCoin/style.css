@@ -40,7 +40,7 @@ backface-visibility: hidden;
         transform: rotatex(1980deg);
     }
 }
-@keyframe spin-heads {
+@keyframes spin-heads {
     0%{transform: rotateX(0);
 }
 100%{
