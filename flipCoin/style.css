@@ -5,9 +5,8 @@ header{
     border-style: dotted;
     border-width: 1em;
     background-color: black;
-    border-image: linear-gradient(90deg, red, yellow);
-    border-image-slice: 1;
 }
+
 .container{
     background-color:white;
     width:400px;
