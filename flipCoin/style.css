@@ -6,3 +6,10 @@ header{
     border-width: 1em;
     background-color: black;
 }
+.container{
+    background-color:blue;
+    width:400px;
+    padding: 35px;
+    margin: 100px auto;
+    border-radius:10px;
+}
