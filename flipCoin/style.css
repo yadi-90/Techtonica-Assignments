@@ -13,3 +13,37 @@ header{
     margin: 100px auto;
     border-radius:10px;
 }
+.coin{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 32px auto;
+    transform-style: preserve-3d;
+}
+.coin img{
+    width: 100%;
+}
+.heads,.tails{
+    position:absolute;
+    width:100%;
+    height:100%;
+backface-visibility: hidden;
+}
+.tails{
+    transform: rotateX(180deg);
+}
+@keyframes spin-tails{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotatex(1980deg);
+    }
+}
+@keyframe spin-heads {
+    0%{transform: rotateX(0);
+}
+100%{
+    transform: rotateX(2160deg);
+}
+}
