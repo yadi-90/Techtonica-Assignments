@@ -71,5 +71,11 @@ button{
     font-size: 20px;
     border-radius: 7px;
     cursor: pointer;
-    background-color: rgb(255, 159, 15);
+}
+#flip-button{
+    color:white;
+    background-color: red;
+}
+#reset-button{
+    color:white;
 }
