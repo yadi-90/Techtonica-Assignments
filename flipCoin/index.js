@@ -21,10 +21,22 @@ flipBtn.addEventListener("click", () =>{
         },100); 
         tails++;
     }
-    setTimeout(updateStats, 3000);
+    setTimeout(updateScore, 3000);
     disableButton();
         });
+    resetBtn.addEventListener("click", () => {
+        heads = 0;
+        tails = 0;
+        updateScore();
+    });
 
     function updateScore(){
-        document.querySelector("#heads-count").textContent = `Heads: ${heads}`;
-        document.querySelector("#tails-count").textContent = `Tails: ${tails}`;}
+        document.querySelector("#heads-score").textContent = `Heads: ${heads}`;
+        document.querySelector("#tails-score").textContent = `Tails: ${tails}`;}
+
+    function disableButton(){
+        flipBtn.disabled = true;
+        setTimeout(function(){
+            flipBtn.disabled = false;
+        },3000)
+    }
