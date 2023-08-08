@@ -6,6 +6,9 @@ header{
     border-width: 1em;
     background-color: black;
 }
+h1{
+    font-style: bold;
+}
 body{
     background-image: url(images/Red\ And\ Blue\ Illustrative\ Circus\ Announcement\ Instagram\ Post.png);
 }
