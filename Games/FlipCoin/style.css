@@ -1,0 +1,93 @@
+header{
+    color: yellow;
+    font-size: 40px;
+    border-color:rgb(240, 14, 14)  yellow ease ;
+    border-style: dotted;
+    border-width: 1em;
+    background-color: black;
+}
+h1{
+    font-style: bold;
+}
+body{
+    background-image: url(images/Red\ And\ Blue\ Illustrative\ Circus\ Announcement\ Instagram\ Post.png);
+}
+
+.container{
+    background-color:white;
+    width:400px;
+    padding: 35px;
+    margin: 100px auto;
+    border-radius:10px;
+    border: 10px solid orangered;
+}
+.coin{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 32px auto;
+    transform-style: preserve-3d;
+}
+.coin img{
+    width: 100%;
+}
+.heads,.tails{
+    position:absolute;
+    width:100%;
+    height:100%;
+backface-visibility: hidden;
+}
+.tails{
+    transform: rotateX(180deg);
+}
+@keyframes spin-tails{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotatex(1980deg);
+    }
+}
+@keyframes spin-heads {
+    0%{transform: rotateX(0);
+}
+100%{
+    transform: rotateX(2160deg);
+}
+}
+.score{
+    display: flex;
+    color:black;
+    font-weight: 500;
+    padding: 20px;
+    margin-top: 55px;
+    margin-bottom:40px;
+    box-shadow: 0 0 20px gray;
+}
+.score p:nth-last-child(1){
+    margin-left:50%;
+}
+.buttons{
+    display:flex;
+    justify-content: space-between;
+}
+button{
+    width: 150px;
+    padding: 15px 0;
+    border: none;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#flip-button{
+    color:white;
+    background-color: red;
+}
+#reset-button{
+    color:white;
+    background-color: rgb(53, 51, 51);
+}
+footer{
+    background-color: red;
+    color:white;
+}
